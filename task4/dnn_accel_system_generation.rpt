@@ -1,0 +1,141 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate "C:\Users\Ryan Luke\Desktop\lab4\dnn_accel_system.qsys" --block-symbol-file --output-directory="C:\Users\Ryan Luke\Desktop\Cpen 311\lab-4-ryaanluke\task4" --family="Cyclone V" --part=5CSEMA5F31C6
+Progress: Loading lab4/dnn_accel_system.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 18.1]
+Progress: Parameterizing module clk_0
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 18.1]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding new_sdram_controller_0 [altera_avalon_new_sdram_controller 18.1]
+Progress: Parameterizing module new_sdram_controller_0
+Progress: Adding nios2_qsys_0 [altera_nios2_qsys 16.1]
+Progress: Parameterizing module nios2_qsys_0
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 18.1]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Adding pio_0 [altera_avalon_pio 18.1]
+Progress: Parameterizing module pio_0
+Progress: Adding pll_0 [altera_pll 18.1]
+Progress: Parameterizing module pll_0
+Progress: Adding word_copy_accelerator_0 [word_copy_accelerator 1.0]
+Progress: Parameterizing module word_copy_accelerator_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: dnn_accel_system.jtag_uart_0: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: dnn_accel_system.new_sdram_controller_0: SDRAM Controller will only be supported in Quartus Prime Standard Edition in the future release.
+Warning: dnn_accel_system.nios2_qsys_0: Nios II Classic cores are no longer recommended for new projects
+Info: dnn_accel_system.pll_0: The legal reference clock frequency is 5.0 MHz..800.0 MHz
+Info: dnn_accel_system.pll_0: Able to implement PLL with user settings
+Warning: dnn_accel_system.word_copy_accelerator: The SIM_VERILOG fileset must specify the top-level module name.
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate "C:\Users\Ryan Luke\Desktop\lab4\dnn_accel_system.qsys" --synthesis=VERILOG --output-directory="C:\Users\Ryan Luke\Desktop\Cpen 311\lab-4-ryaanluke\task4\synthesis" --family="Cyclone V" --part=5CSEMA5F31C6
+Progress: Loading lab4/dnn_accel_system.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 18.1]
+Progress: Parameterizing module clk_0
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 18.1]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding new_sdram_controller_0 [altera_avalon_new_sdram_controller 18.1]
+Progress: Parameterizing module new_sdram_controller_0
+Progress: Adding nios2_qsys_0 [altera_nios2_qsys 16.1]
+Progress: Parameterizing module nios2_qsys_0
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 18.1]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Adding pio_0 [altera_avalon_pio 18.1]
+Progress: Parameterizing module pio_0
+Progress: Adding pll_0 [altera_pll 18.1]
+Progress: Parameterizing module pll_0
+Progress: Adding word_copy_accelerator_0 [word_copy_accelerator 1.0]
+Progress: Parameterizing module word_copy_accelerator_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: dnn_accel_system.jtag_uart_0: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: dnn_accel_system.new_sdram_controller_0: SDRAM Controller will only be supported in Quartus Prime Standard Edition in the future release.
+Warning: dnn_accel_system.nios2_qsys_0: Nios II Classic cores are no longer recommended for new projects
+Info: dnn_accel_system.pll_0: The legal reference clock frequency is 5.0 MHz..800.0 MHz
+Info: dnn_accel_system.pll_0: Able to implement PLL with user settings
+Warning: dnn_accel_system.word_copy_accelerator: The SIM_VERILOG fileset must specify the top-level module name.
+Info: dnn_accel_system: Generating dnn_accel_system "dnn_accel_system" for QUARTUS_SYNTH
+Info: jtag_uart_0: Starting RTL generation for module 'dnn_accel_system_jtag_uart_0'
+Info: jtag_uart_0:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=dnn_accel_system_jtag_uart_0 --dir=C:/Users/RYANLU~1/AppData/Local/Temp/alt8430_5812882093505100154.dir/0004_jtag_uart_0_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/RYANLU~1/AppData/Local/Temp/alt8430_5812882093505100154.dir/0004_jtag_uart_0_gen//dnn_accel_system_jtag_uart_0_component_configuration.pl  --do_build_sim=0  ]
+Info: jtag_uart_0: Done RTL generation for module 'dnn_accel_system_jtag_uart_0'
+Info: jtag_uart_0: "dnn_accel_system" instantiated altera_avalon_jtag_uart "jtag_uart_0"
+Info: new_sdram_controller_0: Starting RTL generation for module 'dnn_accel_system_new_sdram_controller_0'
+Info: new_sdram_controller_0:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller/generate_rtl.pl --name=dnn_accel_system_new_sdram_controller_0 --dir=C:/Users/RYANLU~1/AppData/Local/Temp/alt8430_5812882093505100154.dir/0005_new_sdram_controller_0_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/RYANLU~1/AppData/Local/Temp/alt8430_5812882093505100154.dir/0005_new_sdram_controller_0_gen//dnn_accel_system_new_sdram_controller_0_component_configuration.pl  --do_build_sim=0  ]
+Info: new_sdram_controller_0: Done RTL generation for module 'dnn_accel_system_new_sdram_controller_0'
+Info: new_sdram_controller_0: "dnn_accel_system" instantiated altera_avalon_new_sdram_controller "new_sdram_controller_0"
+Info: nios2_qsys_0: Starting RTL generation for module 'dnn_accel_system_nios2_qsys_0'
+Info: nios2_qsys_0:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/eperlcmd.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2/cpu_lib -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2/nios_lib -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2 -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2 -- C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2/generate_rtl.epl --name=dnn_accel_system_nios2_qsys_0 --dir=C:/Users/RYANLU~1/AppData/Local/Temp/alt8430_5812882093505100154.dir/0006_nios2_qsys_0_gen/ --quartus_bindir=C:/intelfpga_lite/18.1/quartus/bin64 --verilog --config=C:/Users/RYANLU~1/AppData/Local/Temp/alt8430_5812882093505100154.dir/0006_nios2_qsys_0_gen//dnn_accel_system_nios2_qsys_0_processor_configuration.pl  --do_build_sim=0  ]
+Info: nios2_qsys_0: # 2020.06.17 13:15:03 (*) Starting Nios II generation
+Info: nios2_qsys_0: # 2020.06.17 13:15:03 (*)   Checking for plaintext license.
+Info: nios2_qsys_0: # 2020.06.17 13:15:03 (*)   Couldn't query license setup in Quartus directory C:/intelfpga_lite/18.1/quartus/bin64
+Info: nios2_qsys_0: # 2020.06.17 13:15:03 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: nios2_qsys_0: # 2020.06.17 13:15:03 (*)   LM_LICENSE_FILE environment variable is empty
+Info: nios2_qsys_0: # 2020.06.17 13:15:03 (*)   Plaintext license not found.
+Info: nios2_qsys_0: # 2020.06.17 13:15:03 (*)   No license required to generate encrypted Nios II/e.
+Info: nios2_qsys_0: # 2020.06.17 13:15:03 (*)   Elaborating CPU configuration settings
+Info: nios2_qsys_0: # 2020.06.17 13:15:03 (*)   Creating all objects for CPU
+Info: nios2_qsys_0: # 2020.06.17 13:15:05 (*)   Generating RTL from CPU objects
+Info: nios2_qsys_0: # 2020.06.17 13:15:05 (*)   Creating plain-text RTL
+Info: nios2_qsys_0: # 2020.06.17 13:15:06 (*) Done Nios II generation
+Info: nios2_qsys_0: Done RTL generation for module 'dnn_accel_system_nios2_qsys_0'
+Info: nios2_qsys_0: "dnn_accel_system" instantiated altera_nios2_qsys "nios2_qsys_0"
+Info: onchip_memory2_0: Starting RTL generation for module 'dnn_accel_system_onchip_memory2_0'
+Info: onchip_memory2_0:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=dnn_accel_system_onchip_memory2_0 --dir=C:/Users/RYANLU~1/AppData/Local/Temp/alt8430_5812882093505100154.dir/0007_onchip_memory2_0_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/RYANLU~1/AppData/Local/Temp/alt8430_5812882093505100154.dir/0007_onchip_memory2_0_gen//dnn_accel_system_onchip_memory2_0_component_configuration.pl  --do_build_sim=0  ]
+Info: onchip_memory2_0: Done RTL generation for module 'dnn_accel_system_onchip_memory2_0'
+Info: onchip_memory2_0: "dnn_accel_system" instantiated altera_avalon_onchip_memory2 "onchip_memory2_0"
+Info: pio_0: Starting RTL generation for module 'dnn_accel_system_pio_0'
+Info: pio_0:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=dnn_accel_system_pio_0 --dir=C:/Users/RYANLU~1/AppData/Local/Temp/alt8430_5812882093505100154.dir/0008_pio_0_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/RYANLU~1/AppData/Local/Temp/alt8430_5812882093505100154.dir/0008_pio_0_gen//dnn_accel_system_pio_0_component_configuration.pl  --do_build_sim=0  ]
+Info: pio_0: Done RTL generation for module 'dnn_accel_system_pio_0'
+Info: pio_0: "dnn_accel_system" instantiated altera_avalon_pio "pio_0"
+Info: pll_0: "dnn_accel_system" instantiated altera_pll "pll_0"
+Info: word_copy_accelerator_0: "dnn_accel_system" instantiated word_copy_accelerator "word_copy_accelerator_0"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_005: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "dnn_accel_system" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: irq_mapper: "dnn_accel_system" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "dnn_accel_system" instantiated altera_reset_controller "rst_controller"
+Info: word_copy_accelerator_0_avalon_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "word_copy_accelerator_0_avalon_master_translator"
+Info: new_sdram_controller_0_s1_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "new_sdram_controller_0_s1_translator"
+Info: word_copy_accelerator_0_avalon_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "word_copy_accelerator_0_avalon_master_agent"
+Info: new_sdram_controller_0_s1_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "new_sdram_controller_0_s1_agent"
+Info: new_sdram_controller_0_s1_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "new_sdram_controller_0_s1_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: router_003: "mm_interconnect_0" instantiated altera_merlin_router "router_003"
+Info: router_004: "mm_interconnect_0" instantiated altera_merlin_router "router_004"
+Info: router_006: "mm_interconnect_0" instantiated altera_merlin_router "router_006"
+Info: new_sdram_controller_0_s1_burst_adapter: "mm_interconnect_0" instantiated altera_merlin_burst_adapter "new_sdram_controller_0_s1_burst_adapter"
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_001"
+Info: cmd_demux_002: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_002"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: cmd_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_001"
+Info: Reusing file C:/Users/Ryan Luke/Desktop/Cpen 311/lab-4-ryaanluke/task4/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file C:/Users/Ryan Luke/Desktop/Cpen 311/lab-4-ryaanluke/task4/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_001"
+Info: Reusing file C:/Users/Ryan Luke/Desktop/Cpen 311/lab-4-ryaanluke/task4/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux_002: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_002"
+Info: Reusing file C:/Users/Ryan Luke/Desktop/Cpen 311/lab-4-ryaanluke/task4/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: new_sdram_controller_0_s1_rsp_width_adapter: "mm_interconnect_0" instantiated altera_merlin_width_adapter "new_sdram_controller_0_s1_rsp_width_adapter"
+Info: Reusing file C:/Users/Ryan Luke/Desktop/Cpen 311/lab-4-ryaanluke/task4/synthesis/submodules/altera_merlin_address_alignment.sv
+Info: Reusing file C:/Users/Ryan Luke/Desktop/Cpen 311/lab-4-ryaanluke/task4/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: avalon_st_adapter_001: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter_001"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: error_adapter_0: "avalon_st_adapter_001" instantiated error_adapter "error_adapter_0"
+Info: dnn_accel_system: Done "dnn_accel_system" with 36 modules, 61 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

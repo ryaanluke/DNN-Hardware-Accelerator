@@ -1,0 +1,459 @@
+Info: Starting: Create testbench Platform Designer system
+Info: C:/Users/Ryan Luke/Desktop/Cpen 311/lab-4-ryaanluke/task4/testbench/dnn_accel_system.ipx
+Info: qsys-generate "C:\Users\Ryan Luke\Desktop\lab4\dnn_accel_system.qsys" --testbench=STANDARD --output-directory="C:\Users\Ryan Luke\Desktop\lab4" --family="Cyclone V" --part=5CSEMA5F31C6
+Progress: Loading lab4/dnn_accel_system.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 18.1]
+Progress: Parameterizing module clk_0
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 18.1]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding new_sdram_controller_0 [altera_avalon_new_sdram_controller 18.1]
+Progress: Parameterizing module new_sdram_controller_0
+Progress: Adding nios2_qsys_0 [altera_nios2_qsys 16.1]
+Progress: Parameterizing module nios2_qsys_0
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 18.1]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Adding pio_0 [altera_avalon_pio 18.1]
+Progress: Parameterizing module pio_0
+Progress: Adding pll_0 [altera_pll 18.1]
+Progress: Parameterizing module pll_0
+Progress: Adding word_copy_accelerator_0 [word_copy_accelerator 1.0]
+Progress: Parameterizing module word_copy_accelerator_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: dnn_accel_system.jtag_uart_0: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: dnn_accel_system.new_sdram_controller_0: SDRAM Controller will only be supported in Quartus Prime Standard Edition in the future release.
+Warning: dnn_accel_system.nios2_qsys_0: Nios II Classic cores are no longer recommended for new projects
+Info: dnn_accel_system.pll_0: The legal reference clock frequency is 5.0 MHz..800.0 MHz
+Info: dnn_accel_system.pll_0: Able to implement PLL with user settings
+Warning: dnn_accel_system.word_copy_accelerator: The SIM_VERILOG fileset must specify the top-level module name.
+Info: qsys-generate succeeded.
+Info: Loading IP catalog for testbench.
+Progress: 
+Progress: 
+Progress: 
+Progress: (2) searching C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/root_components.ipx (ipx file)
+Info: Reading index C:\intelfpga_lite\18.1\quartus\sopc_builder\bin\root_components.ipx
+Info: C:\intelfpga_lite\18.1\quartus\sopc_builder\bin\root_components.ipx: Loading now from components.ipx
+Info: Reading index C:\intelfpga_lite\18.1\quartus\sopc_builder\bin\ip_component_categories.ipx
+Info: C:\intelfpga_lite\18.1\quartus\sopc_builder\bin\ip_component_categories.ipx described 0 plugins, 0 paths, in 0.00 seconds
+Info: C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/ip_component_categories.ipx matched 1 files in 0.00 seconds
+Info: C:/Users/Ryan Luke/Desktop/Cpen 311/lab-4-ryaanluke/task4/testbench/ip/**/* matched 0 files in 0.00 seconds
+Info: Reading index C:\Users\Ryan Luke\Desktop\Cpen 311\lab-4-ryaanluke\task4\testbench\dnn_accel_system.ipx
+Progress: Loading lab4/dnn_accel_system.qsys
+Progress: Loading lab4/word_copy_accelerator_hw.tcl
+Info: C:/Users/Ryan Luke/Desktop/lab4/* matched 18 files in 0.04 seconds
+Info: C:/Users/Ryan Luke/Desktop/lab4/ip/**/* matched 0 files in 0.00 seconds
+Info: C:/Users/Ryan Luke/Desktop/lab4/*/* matched 355 files in 0.02 seconds
+Info: C:\Users\Ryan Luke\Desktop\Cpen 311\lab-4-ryaanluke\task4\testbench\dnn_accel_system.ipx described 0 plugins, 3 paths, in 0.07 seconds
+Info: C:/Users/Ryan Luke/Desktop/Cpen 311/lab-4-ryaanluke/task4/testbench/* matched 4 files in 0.07 seconds
+Info: C:/Users/Ryan Luke/Desktop/Cpen 311/lab-4-ryaanluke/task4/testbench/*/* matched 0 files in 0.00 seconds
+Info: C:/Users/Ryan Luke/.altera.quartus/ip/18.1/**/* matched 0 files in 0.00 seconds
+Info: C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/$$QUARTUS_IP_PROJECTDIR/* matched 0 files in 0.00 seconds
+Info: C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/$$QUARTUS_IP_USERDIR/* matched 0 files in 0.00 seconds
+Info: C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/$$QUARTUS_IP_GLOBALDIR/* matched 0 files in 0.00 seconds
+Info: Reading index C:\intelfpga_lite\18.1\ip\altera\altera_components.ipx
+Info: C:\intelfpga_lite\18.1\ip\altera\altera_components.ipx described 2035 plugins, 0 paths, in 0.09 seconds
+Info: Reading index C:\intelfpga_lite\18.1\ip\altera\up.ipx
+Info: C:\intelfpga_lite\18.1\ip\altera\up.ipx described 3 plugins, 0 paths, in 0.00 seconds
+Info: C:/intelfpga_lite/18.1/ip/**/* matched 140 files in 0.10 seconds
+Info: C:/intelfpga_lite/ip/**/* matched 0 files in 0.00 seconds
+Info: Reading index C:\intelfpga_lite\18.1\quartus\sopc_builder\builtin.ipx
+Info: C:\intelfpga_lite\18.1\quartus\sopc_builder\builtin.ipx described 83 plugins, 0 paths, in 0.01 seconds
+Info: C:/intelfpga_lite/18.1/quartus/sopc_builder/**/* matched 8 files in 0.01 seconds
+Info: Reading index C:\intelfpga_lite\18.1\quartus\common\librarian\factories\index.ipx
+Info: C:\intelfpga_lite\18.1\quartus\common\librarian\factories\index.ipx described 151 plugins, 0 paths, in 0.01 seconds
+Info: C:/intelfpga_lite/18.1/quartus/common/librarian/factories/**/* matched 4 files in 0.01 seconds
+Info: C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/$IP_IPX_PATH matched 1 files in 0.00 seconds
+Info: C:\intelfpga_lite\18.1\quartus\sopc_builder\bin\root_components.ipx described 0 plugins, 13 paths, in 0.19 seconds
+Info: C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/root_components.ipx matched 1 files in 0.19 seconds
+Progress: 
+Progress: 
+Progress: 
+Info: Running script C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/tbgen.tcl
+Info: send_message Info TB_Gen: QSYS Testbench Generator Rev: $Revision: #1 $
+Info: TB_Gen: QSYS Testbench Generator Rev: $Revision: #1 $
+Info: get_module_property NAME
+Info: send_message Info TB_Gen: System design is: dnn_accel_system
+Info: TB_Gen: System design is: dnn_accel_system
+Info: get_interfaces 
+Info: get_connections 
+Info: get_interface_property clk EXPORT_OF
+Info: get_instance_property clk_0 CLASS_NAME
+Info: get_instance_assignment clk_0 testbench.partner.map.clk_in
+Info: get_interface_property hex EXPORT_OF
+Info: get_instance_property pio_0 CLASS_NAME
+Info: get_instance_assignment pio_0 testbench.partner.map.external_connection
+Info: get_interface_property pll_locked EXPORT_OF
+Info: get_instance_property pll_0 CLASS_NAME
+Info: get_instance_assignment pll_0 testbench.partner.map.locked
+Info: get_interface_property reset EXPORT_OF
+Info: get_instance_property clk_0 CLASS_NAME
+Info: get_instance_assignment clk_0 testbench.partner.map.clk_in_reset
+Info: get_interface_property sdram EXPORT_OF
+Info: get_instance_property new_sdram_controller_0 CLASS_NAME
+Info: get_instance_assignment new_sdram_controller_0 testbench.partner.map.wire
+Info: get_instance_assignment new_sdram_controller_0 testbench.partner.map.wire
+Info: get_instance_assignment new_sdram_controller_0 testbench.partner.map.wire
+Info: get_instance_assignment new_sdram_controller_0 testbench.partner.my_partner.class
+Info: get_instance_assignment new_sdram_controller_0 testbench.partner.my_partner.version
+Info: get_instance_assignments new_sdram_controller_0
+Info: get_instance_assignment new_sdram_controller_0 testbench.partner.my_partner.parameter.CAS_LATENCY
+Info: get_instance_assignment new_sdram_controller_0 testbench.partner.my_partner.parameter.CONTR_NAME
+Info: get_instance_assignment new_sdram_controller_0 testbench.partner.my_partner.parameter.SDRAM_BANK_WIDTH
+Info: get_instance_assignment new_sdram_controller_0 testbench.partner.my_partner.parameter.SDRAM_COL_WIDTH
+Info: get_instance_assignment new_sdram_controller_0 testbench.partner.my_partner.parameter.SDRAM_DATA_WIDTH
+Info: get_instance_assignment new_sdram_controller_0 testbench.partner.my_partner.parameter.SDRAM_NUM_CHIPSELECTS
+Info: get_instance_assignment new_sdram_controller_0 testbench.partner.my_partner.parameter.SDRAM_ROW_WIDTH
+Info: send_message Info TB_Gen: Interface 'sdram' partner_name: 'new_sdram_controller_0_my_partner'
+Info: TB_Gen: Interface 'sdram' partner_name: 'new_sdram_controller_0_my_partner'
+Info: send_message Info TB_Gen: Interface 'new_sdram_controller_0_my_partner' sdram.partner_intf: 'conduit'
+Info: TB_Gen: Interface 'new_sdram_controller_0_my_partner' sdram.partner_intf: 'conduit'
+Info: send_message Info TB_Gen: Interface 'new_sdram_controller_0_my_partner' partner_class: 'altera_sdram_partner_module'
+Info: TB_Gen: Interface 'new_sdram_controller_0_my_partner' partner_class: 'altera_sdram_partner_module'
+Info: send_message Info TB_Gen: Interface 'new_sdram_controller_0_my_partner' partner_version: ''
+Info: TB_Gen: Interface 'new_sdram_controller_0_my_partner' partner_version: ''
+Info: send_message Info TB_Gen: Interface 'new_sdram_controller_0_my_partner' partner_param.CAS_LATENCY: '3'
+Info: TB_Gen: Interface 'new_sdram_controller_0_my_partner' partner_param.CAS_LATENCY: '3'
+Info: send_message Info TB_Gen: Interface 'new_sdram_controller_0_my_partner' partner_param.CONTR_NAME: 'dnn_accel_system_new_sdram_controller_0'
+Info: TB_Gen: Interface 'new_sdram_controller_0_my_partner' partner_param.CONTR_NAME: 'dnn_accel_system_new_sdram_controller_0'
+Info: send_message Info TB_Gen: Interface 'new_sdram_controller_0_my_partner' partner_param.SDRAM_BANK_WIDTH: '2'
+Info: TB_Gen: Interface 'new_sdram_controller_0_my_partner' partner_param.SDRAM_BANK_WIDTH: '2'
+Info: send_message Info TB_Gen: Interface 'new_sdram_controller_0_my_partner' partner_param.SDRAM_COL_WIDTH: '10'
+Info: TB_Gen: Interface 'new_sdram_controller_0_my_partner' partner_param.SDRAM_COL_WIDTH: '10'
+Info: send_message Info TB_Gen: Interface 'new_sdram_controller_0_my_partner' partner_param.SDRAM_DATA_WIDTH: '16'
+Info: TB_Gen: Interface 'new_sdram_controller_0_my_partner' partner_param.SDRAM_DATA_WIDTH: '16'
+Info: send_message Info TB_Gen: Interface 'new_sdram_controller_0_my_partner' partner_param.SDRAM_NUM_CHIPSELECTS: '1'
+Info: TB_Gen: Interface 'new_sdram_controller_0_my_partner' partner_param.SDRAM_NUM_CHIPSELECTS: '1'
+Info: send_message Info TB_Gen: Interface 'new_sdram_controller_0_my_partner' partner_param.SDRAM_ROW_WIDTH: '13'
+Info: TB_Gen: Interface 'new_sdram_controller_0_my_partner' partner_param.SDRAM_ROW_WIDTH: '13'
+Info: send_message Info TB_Gen: Interface 'new_sdram_controller_0_my_partner' partner_params: 'CAS_LATENCY CONTR_NAME SDRAM_BANK_WIDTH SDRAM_COL_WIDTH SDRAM_DATA_WIDTH SDRAM_NUM_CHIPSELECTS SDRAM_ROW_WIDTH'
+Info: TB_Gen: Interface 'new_sdram_controller_0_my_partner' partner_params: 'CAS_LATENCY CONTR_NAME SDRAM_BANK_WIDTH SDRAM_COL_WIDTH SDRAM_DATA_WIDTH SDRAM_NUM_CHIPSELECTS SDRAM_ROW_WIDTH'
+Info: get_instance_assignments new_sdram_controller_0
+Info: get_instance_interfaces new_sdram_controller_0
+Info: get_instance_interfaces new_sdram_controller_0
+Info: get_interface_property clk EXPORT_OF
+Info: get_interface_property hex EXPORT_OF
+Info: get_interface_property pll_locked EXPORT_OF
+Info: get_interface_property reset EXPORT_OF
+Info: get_interface_property sdram EXPORT_OF
+Info: get_interface_property sdram_clk EXPORT_OF
+Info: get_instance_assignment new_sdram_controller_0 testbench.partner.map.clk
+Info: get_instance_assignment new_sdram_controller_0 testbench.partner.map.clk
+Info: get_instance_assignment new_sdram_controller_0 testbench.partner.map.clk
+Info: get_instance_interface_property new_sdram_controller_0 clk CLASS_NAME
+Info: get_instance_interface_parameter_value new_sdram_controller_0 clk clockRate
+Info: get_instance_interface_property new_sdram_controller_0 clk CLASS_NAME
+Info: get_interface_property clk EXPORT_OF
+Info: get_interface_property hex EXPORT_OF
+Info: get_interface_property pll_locked EXPORT_OF
+Info: get_interface_property reset EXPORT_OF
+Info: get_interface_property sdram EXPORT_OF
+Info: get_interface_property sdram_clk EXPORT_OF
+Info: get_instance_property pll_0 CLASS_NAME
+Info: get_interface_property clk EXPORT_OF
+Info: get_interface_property hex EXPORT_OF
+Info: get_interface_property pll_locked EXPORT_OF
+Info: get_interface_property reset EXPORT_OF
+Info: get_interface_property sdram EXPORT_OF
+Info: get_interface_property sdram_clk EXPORT_OF
+Info: get_instance_property jtag_uart_0 CLASS_NAME
+Info: get_instance_property new_sdram_controller_0 CLASS_NAME
+Info: get_instance_property nios2_qsys_0 CLASS_NAME
+Info: get_instance_property onchip_memory2_0 CLASS_NAME
+Info: get_instance_property pio_0 CLASS_NAME
+Info: get_instance_property word_copy_accelerator_0 CLASS_NAME
+Info: get_instance_interface_parameter_value pll_0 outclk0 clockRate
+Info: send_message Info TB_Gen: Implicit assignment 'new_sdram_controller_0_my_partner' partner_implicit_name: 'new_sdram_controller_0_my_partner'
+Info: TB_Gen: Implicit assignment 'new_sdram_controller_0_my_partner' partner_implicit_name: 'new_sdram_controller_0_my_partner'
+Info: send_message Info TB_Gen: Implicit assignment 'new_sdram_controller_0_my_partner' partner_implicit_clks: 'clk'
+Info: TB_Gen: Implicit assignment 'new_sdram_controller_0_my_partner' partner_implicit_clks: 'clk'
+Info: send_message Info TB_Gen: Implicit assignment 'new_sdram_controller_0_my_partner' clk.partner_implicit_clk_rate: '50000000.0'
+Info: TB_Gen: Implicit assignment 'new_sdram_controller_0_my_partner' clk.partner_implicit_clk_rate: '50000000.0'
+Info: send_message Info TB_Gen: Implicit assignment 'new_sdram_controller_0_my_partner' clk.partner_implicit_clk_export: ''
+Info: TB_Gen: Implicit assignment 'new_sdram_controller_0_my_partner' clk.partner_implicit_clk_export: ''
+Info: get_instance_property new_sdram_controller_0 CLASS_NAME
+Info: get_interface_property sdram_clk EXPORT_OF
+Info: get_instance_property pll_0 CLASS_NAME
+Info: get_instance_assignment pll_0 testbench.partner.map.outclk1
+Info: send_message Info TB_Gen: Creating testbench system : dnn_accel_system_tb with all standard BFMs
+Info: TB_Gen: Creating testbench system : dnn_accel_system_tb with all standard BFMs
+Info: create_system dnn_accel_system_tb
+Info: add_instance dnn_accel_system_inst dnn_accel_system 
+Info: set_use_testbench_naming_pattern true dnn_accel_system
+Info: get_instance_interfaces dnn_accel_system_inst
+Info: get_instance_interface_property dnn_accel_system_inst clk CLASS_NAME
+Info: get_instance_interface_property dnn_accel_system_inst hex CLASS_NAME
+Info: get_instance_interface_property dnn_accel_system_inst pll_locked CLASS_NAME
+Info: get_instance_interface_property dnn_accel_system_inst reset CLASS_NAME
+Info: get_instance_interface_property dnn_accel_system_inst sdram CLASS_NAME
+Info: get_instance_interface_property dnn_accel_system_inst sdram_clk CLASS_NAME
+Info: get_instance_interface_property dnn_accel_system_inst clk CLASS_NAME
+Info: send_message Info TB_Gen: clock_sink found: clk
+Info: TB_Gen: clock_sink found: clk
+Info: get_instance_interface_property dnn_accel_system_inst clk CLASS_NAME
+Info: add_instance dnn_accel_system_inst_clk_bfm altera_avalon_clock_source 
+Info: get_instance_property dnn_accel_system_inst_clk_bfm CLASS_NAME
+Info: get_instance_interface_parameter_value dnn_accel_system_inst clk clockRate
+Info: set_instance_parameter_value dnn_accel_system_inst_clk_bfm CLOCK_RATE 50000000.0
+Info: set_instance_parameter_value dnn_accel_system_inst_clk_bfm CLOCK_UNIT 1
+Info: get_instance_property dnn_accel_system_inst_clk_bfm CLASS_NAME
+Info: get_instance_interface_property dnn_accel_system_inst clk CLASS_NAME
+Info: get_instance_interfaces dnn_accel_system_inst_clk_bfm
+Info: get_instance_interface_property dnn_accel_system_inst_clk_bfm clk CLASS_NAME
+Info: add_connection dnn_accel_system_inst_clk_bfm.clk dnn_accel_system_inst.clk
+Info: get_instance_interface_property dnn_accel_system_inst reset CLASS_NAME
+Info: send_message Info TB_Gen: reset_sink found: reset
+Info: TB_Gen: reset_sink found: reset
+Info: get_instance_interface_property dnn_accel_system_inst reset CLASS_NAME
+Info: add_instance dnn_accel_system_inst_reset_bfm altera_avalon_reset_source 
+Info: get_instance_property dnn_accel_system_inst_reset_bfm CLASS_NAME
+Info: get_instance_interface_ports dnn_accel_system_inst reset
+Info: get_instance_interface_port_property dnn_accel_system_inst reset reset_reset_n ROLE
+Info: get_instance_interface_port_property dnn_accel_system_inst reset reset_reset_n ROLE
+Info: set_instance_parameter_value dnn_accel_system_inst_reset_bfm ASSERT_HIGH_RESET 0
+Info: set_instance_parameter_value dnn_accel_system_inst_reset_bfm INITIAL_RESET_CYCLES 50
+Info: get_instance_property dnn_accel_system_inst_reset_bfm CLASS_NAME
+Info: get_instance_interfaces dnn_accel_system_inst_reset_bfm
+Info: get_instance_interface_property dnn_accel_system_inst_reset_bfm clk CLASS_NAME
+Info: get_instance_interface_property dnn_accel_system_inst_reset_bfm reset CLASS_NAME
+Info: get_instance_property dnn_accel_system_inst_reset_bfm CLASS_NAME
+Info: get_instance_interface_parameter_value dnn_accel_system_inst reset associatedClock
+Info: get_instance_interfaces dnn_accel_system_inst_clk_bfm
+Info: get_instance_interface_property dnn_accel_system_inst_clk_bfm clk CLASS_NAME
+Info: send_message Warning TB_Gen: dnn_accel_system_inst_reset_bfm is not associated to any clock; connecting dnn_accel_system_inst_reset_bfm to 'dnn_accel_system_inst_clk_bfm.clk'
+Warning: TB_Gen: dnn_accel_system_inst_reset_bfm is not associated to any clock; connecting dnn_accel_system_inst_reset_bfm to 'dnn_accel_system_inst_clk_bfm.clk'
+Info: add_connection dnn_accel_system_inst_clk_bfm.clk dnn_accel_system_inst_reset_bfm.clk
+Info: get_instance_interface_property dnn_accel_system_inst reset CLASS_NAME
+Info: get_instance_interfaces dnn_accel_system_inst_reset_bfm
+Info: get_instance_interface_property dnn_accel_system_inst_reset_bfm clk CLASS_NAME
+Info: get_instance_interface_property dnn_accel_system_inst_reset_bfm reset CLASS_NAME
+Info: add_connection dnn_accel_system_inst_reset_bfm.reset dnn_accel_system_inst.reset
+Info: get_instance_interface_property dnn_accel_system_inst hex CLASS_NAME
+Info: send_message Info TB_Gen: conduit_end found: hex
+Info: TB_Gen: conduit_end found: hex
+Info: get_instance_interface_property dnn_accel_system_inst hex CLASS_NAME
+Info: add_instance dnn_accel_system_inst_hex_bfm altera_conduit_bfm 
+Info: get_instance_property dnn_accel_system_inst_hex_bfm CLASS_NAME
+Info: get_instance_interface_parameter_value dnn_accel_system_inst hex associatedClock
+Info: get_instance_interface_parameter_value dnn_accel_system_inst hex associatedReset
+Info: get_instance_interface_ports dnn_accel_system_inst hex
+Info: get_instance_interface_port_property dnn_accel_system_inst hex hex_export ROLE
+Info: get_instance_interface_port_property dnn_accel_system_inst hex hex_export WIDTH
+Info: get_instance_interface_port_property dnn_accel_system_inst hex hex_export DIRECTION
+Info: set_instance_parameter_value dnn_accel_system_inst_hex_bfm CLOCKED_SIGNAL 0
+Info: set_instance_parameter_value dnn_accel_system_inst_hex_bfm ENABLE_RESET 0
+Info: set_instance_parameter_value dnn_accel_system_inst_hex_bfm SIGNAL_ROLES export
+Info: set_instance_parameter_value dnn_accel_system_inst_hex_bfm SIGNAL_WIDTHS 7
+Info: set_instance_parameter_value dnn_accel_system_inst_hex_bfm SIGNAL_DIRECTIONS input
+Info: get_instance_property dnn_accel_system_inst_hex_bfm CLASS_NAME
+Info: get_instance_interface_property dnn_accel_system_inst hex CLASS_NAME
+Info: get_instance_interfaces dnn_accel_system_inst_hex_bfm
+Info: get_instance_interface_property dnn_accel_system_inst_hex_bfm conduit CLASS_NAME
+Info: add_connection dnn_accel_system_inst_hex_bfm.conduit dnn_accel_system_inst.hex
+Info: get_instance_interface_property dnn_accel_system_inst pll_locked CLASS_NAME
+Info: send_message Info TB_Gen: conduit_end found: pll_locked
+Info: TB_Gen: conduit_end found: pll_locked
+Info: get_instance_interface_property dnn_accel_system_inst pll_locked CLASS_NAME
+Info: add_instance dnn_accel_system_inst_pll_locked_bfm altera_conduit_bfm 
+Info: get_instance_property dnn_accel_system_inst_pll_locked_bfm CLASS_NAME
+Info: get_instance_interface_parameter_value dnn_accel_system_inst pll_locked associatedClock
+Info: get_instance_interface_parameter_value dnn_accel_system_inst pll_locked associatedReset
+Info: get_instance_interface_ports dnn_accel_system_inst pll_locked
+Info: get_instance_interface_port_property dnn_accel_system_inst pll_locked pll_locked_export ROLE
+Info: get_instance_interface_port_property dnn_accel_system_inst pll_locked pll_locked_export WIDTH
+Info: get_instance_interface_port_property dnn_accel_system_inst pll_locked pll_locked_export DIRECTION
+Info: set_instance_parameter_value dnn_accel_system_inst_pll_locked_bfm CLOCKED_SIGNAL 0
+Info: set_instance_parameter_value dnn_accel_system_inst_pll_locked_bfm ENABLE_RESET 0
+Info: set_instance_parameter_value dnn_accel_system_inst_pll_locked_bfm SIGNAL_ROLES export
+Info: set_instance_parameter_value dnn_accel_system_inst_pll_locked_bfm SIGNAL_WIDTHS 1
+Info: set_instance_parameter_value dnn_accel_system_inst_pll_locked_bfm SIGNAL_DIRECTIONS input
+Info: get_instance_property dnn_accel_system_inst_pll_locked_bfm CLASS_NAME
+Info: get_instance_interface_property dnn_accel_system_inst pll_locked CLASS_NAME
+Info: get_instance_interfaces dnn_accel_system_inst_pll_locked_bfm
+Info: get_instance_interface_property dnn_accel_system_inst_pll_locked_bfm conduit CLASS_NAME
+Info: add_connection dnn_accel_system_inst_pll_locked_bfm.conduit dnn_accel_system_inst.pll_locked
+Info: get_instance_interface_property dnn_accel_system_inst sdram CLASS_NAME
+Info: send_message Info TB_Gen: conduit_end (for partner module) found: sdram
+Info: TB_Gen: conduit_end (for partner module) found: sdram
+Info: add_instance new_sdram_controller_0_my_partner altera_sdram_partner_module 
+Info: set_instance_parameter_value new_sdram_controller_0_my_partner CAS_LATENCY 3
+Info: set_instance_parameter_value new_sdram_controller_0_my_partner CONTR_NAME dnn_accel_system_new_sdram_controller_0
+Info: set_instance_parameter_value new_sdram_controller_0_my_partner SDRAM_BANK_WIDTH 2
+Info: set_instance_parameter_value new_sdram_controller_0_my_partner SDRAM_COL_WIDTH 10
+Info: set_instance_parameter_value new_sdram_controller_0_my_partner SDRAM_DATA_WIDTH 16
+Info: set_instance_parameter_value new_sdram_controller_0_my_partner SDRAM_NUM_CHIPSELECTS 1
+Info: set_instance_parameter_value new_sdram_controller_0_my_partner SDRAM_ROW_WIDTH 13
+Info: get_instance_interface_property dnn_accel_system_inst sdram CLASS_NAME
+Info: get_instance_interface_property new_sdram_controller_0_my_partner conduit CLASS_NAME
+Info: get_instance_interface_property dnn_accel_system_inst sdram CLASS_NAME
+Info: get_instance_interface_property new_sdram_controller_0_my_partner conduit CLASS_NAME
+Info: add_connection new_sdram_controller_0_my_partner.conduit dnn_accel_system_inst.sdram
+Info: get_instance_interface_property new_sdram_controller_0_my_partner clk CLASS_NAME
+Info: get_instance_interface_property new_sdram_controller_0_my_partner clk CLASS_NAME
+Info: add_instance new_sdram_controller_0_my_partner_clk_bfm altera_avalon_clock_source 
+Info: set_instance_parameter_value new_sdram_controller_0_my_partner_clk_bfm CLOCK_RATE 50000000.0
+Info: set_instance_parameter_value new_sdram_controller_0_my_partner_clk_bfm CLOCK_UNIT 1
+Info: get_instance_interface_property new_sdram_controller_0_my_partner clk CLASS_NAME
+Info: get_instance_interfaces new_sdram_controller_0_my_partner_clk_bfm
+Info: get_instance_interface_property new_sdram_controller_0_my_partner_clk_bfm clk CLASS_NAME
+Info: add_connection new_sdram_controller_0_my_partner_clk_bfm.clk new_sdram_controller_0_my_partner.clk
+Info: send_message Info TB_Gen: Saving testbench system: dnn_accel_system_tb.qsys
+Info: TB_Gen: Saving testbench system: dnn_accel_system_tb.qsys
+Info: save_system dnn_accel_system_tb.qsys
+Info: send_message Info TB_Gen: TBGEN SUCCESSFUL
+Info: TB_Gen: TBGEN SUCCESSFUL
+Info: Testbench system: C:/Users/Ryan Luke/Desktop/Cpen 311/lab-4-ryaanluke/task4/testbench/dnn_accel_system_tb.qsys
+Info: Done
+Info: qsys-generate "C:\Users\Ryan Luke\Desktop\lab4\dnn_accel_system.qsys" --simulation=VERILOG --allow-mixed-language-simulation --testbench=STANDARD --testbench-simulation=VERILOG --allow-mixed-language-testbench-simulation --output-directory="C:\Users\Ryan Luke\Desktop\Cpen 311\lab-4-ryaanluke\task4\testbench\dnn_accel_system_tb\simulation" --family="Cyclone V" --part=5CSEMA5F31C6
+Progress: Loading testbench/dnn_accel_system_tb.qsys
+Progress: Reading input file
+Progress: Adding dnn_accel_system_inst [dnn_accel_system 1.0]
+Progress: Parameterizing module dnn_accel_system_inst
+Progress: Adding dnn_accel_system_inst_clk_bfm [altera_avalon_clock_source 18.1]
+Progress: Parameterizing module dnn_accel_system_inst_clk_bfm
+Progress: Adding dnn_accel_system_inst_hex_bfm [altera_conduit_bfm 18.1]
+Progress: Parameterizing module dnn_accel_system_inst_hex_bfm
+Progress: Adding dnn_accel_system_inst_pll_locked_bfm [altera_conduit_bfm 18.1]
+Progress: Parameterizing module dnn_accel_system_inst_pll_locked_bfm
+Progress: Adding dnn_accel_system_inst_reset_bfm [altera_avalon_reset_source 18.1]
+Progress: Parameterizing module dnn_accel_system_inst_reset_bfm
+Progress: Adding new_sdram_controller_0_my_partner [altera_sdram_partner_module 11.0]
+Progress: Parameterizing module new_sdram_controller_0_my_partner
+Progress: Adding new_sdram_controller_0_my_partner_clk_bfm [altera_avalon_clock_source 18.1]
+Progress: Parameterizing module new_sdram_controller_0_my_partner_clk_bfm
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: dnn_accel_system_tb.dnn_accel_system_inst.jtag_uart_0: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: dnn_accel_system_tb.dnn_accel_system_inst.new_sdram_controller_0: SDRAM Controller will only be supported in Quartus Prime Standard Edition in the future release.
+Warning: dnn_accel_system_tb.dnn_accel_system_inst.nios2_qsys_0: Nios II Classic cores are no longer recommended for new projects
+Info: dnn_accel_system_tb.dnn_accel_system_inst.pll_0: The legal reference clock frequency is 5.0 MHz..800.0 MHz
+Info: dnn_accel_system_tb.dnn_accel_system_inst.pll_0: Able to implement PLL with user settings
+Warning: dnn_accel_system_tb.dnn_accel_system_inst.word_copy_accelerator: The SIM_VERILOG fileset must specify the top-level module name.
+Info: dnn_accel_system_tb.dnn_accel_system_inst_clk_bfm: Elaborate: altera_clock_source
+Info: dnn_accel_system_tb.dnn_accel_system_inst_clk_bfm:            $Revision: #1 $
+Info: dnn_accel_system_tb.dnn_accel_system_inst_clk_bfm:            $Date: 2018/07/18 $
+Info: dnn_accel_system_tb.dnn_accel_system_inst_reset_bfm: Elaborate: altera_reset_source
+Info: dnn_accel_system_tb.dnn_accel_system_inst_reset_bfm:            $Revision: #1 $
+Info: dnn_accel_system_tb.dnn_accel_system_inst_reset_bfm:            $Date: 2018/07/18 $
+Info: dnn_accel_system_tb.dnn_accel_system_inst_reset_bfm: Reset is negatively asserted.
+Info: dnn_accel_system_tb.new_sdram_controller_0_my_partner_clk_bfm: Elaborate: altera_clock_source
+Info: dnn_accel_system_tb.new_sdram_controller_0_my_partner_clk_bfm:            $Revision: #1 $
+Info: dnn_accel_system_tb.new_sdram_controller_0_my_partner_clk_bfm:            $Date: 2018/07/18 $
+Info: dnn_accel_system_tb: Generating dnn_accel_system_tb "dnn_accel_system_tb" for SIM_VERILOG
+Info: dnn_accel_system_inst: "dnn_accel_system_tb" instantiated dnn_accel_system "dnn_accel_system_inst"
+Info: dnn_accel_system_inst_clk_bfm: "dnn_accel_system_tb" instantiated altera_avalon_clock_source "dnn_accel_system_inst_clk_bfm"
+Info: dnn_accel_system_inst_hex_bfm: "dnn_accel_system_tb" instantiated altera_conduit_bfm "dnn_accel_system_inst_hex_bfm"
+Info: Reusing file C:/Users/Ryan Luke/Desktop/Cpen 311/lab-4-ryaanluke/task4/testbench/dnn_accel_system_tb/simulation/submodules/verbosity_pkg.sv
+Info: dnn_accel_system_inst_pll_locked_bfm: "dnn_accel_system_tb" instantiated altera_conduit_bfm "dnn_accel_system_inst_pll_locked_bfm"
+Info: Reusing file C:/Users/Ryan Luke/Desktop/Cpen 311/lab-4-ryaanluke/task4/testbench/dnn_accel_system_tb/simulation/submodules/verbosity_pkg.sv
+Info: dnn_accel_system_inst_reset_bfm: "dnn_accel_system_tb" instantiated altera_avalon_reset_source "dnn_accel_system_inst_reset_bfm"
+Info: Reusing file C:/Users/Ryan Luke/Desktop/Cpen 311/lab-4-ryaanluke/task4/testbench/dnn_accel_system_tb/simulation/submodules/verbosity_pkg.sv
+Info: new_sdram_controller_0_my_partner: Starting RTL generation for partner module 'altera_sdram_partner_module'
+Info: new_sdram_controller_0_my_partner:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/ip/altera/alt_mem_if/alt_mem_if_mem_models/altera_sdram_partner_module/ -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_sdram_partner_module -- C:/intelfpga_lite/18.1/ip/altera/alt_mem_if/alt_mem_if_mem_models/altera_sdram_partner_module//em_altera_sodimm.pl --output_dir=C:/Users/RYANLU~1/AppData/Local/Temp/alt8430_5812882093505100154.dir/0040_sopcgen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --language=verilog --sdram_data_width=16 --sdram_bank_width=2 --sdram_col_width=10 --sdram_row_width=13 --sdram_num_chipselects=1 --module_name=altera_sdram_partner_module --cas_latency=3]
+Info: new_sdram_controller_0_my_partner: # 2020.06.17 13:15:45 (*) Starting SDRAM Simulation Partner Module generation
+Info: new_sdram_controller_0_my_partner: Done RTL generation for module 'altera_sdram_partner_module'
+Info: new_sdram_controller_0_my_partner: "dnn_accel_system_tb" instantiated altera_sdram_partner_module "new_sdram_controller_0_my_partner"
+Info: jtag_uart_0: Starting RTL generation for module 'dnn_accel_system_jtag_uart_0'
+Info: jtag_uart_0:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=dnn_accel_system_jtag_uart_0 --dir=C:/Users/RYANLU~1/AppData/Local/Temp/alt8430_5812882093505100154.dir/0041_jtag_uart_0_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/RYANLU~1/AppData/Local/Temp/alt8430_5812882093505100154.dir/0041_jtag_uart_0_gen//dnn_accel_system_jtag_uart_0_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/RYANLU~1/AppData/Local/Temp/alt8430_5812882093505100154.dir/0041_jtag_uart_0_gen/  ]
+Info: jtag_uart_0: Done RTL generation for module 'dnn_accel_system_jtag_uart_0'
+Info: jtag_uart_0: "dnn_accel_system_inst" instantiated altera_avalon_jtag_uart "jtag_uart_0"
+Info: new_sdram_controller_0: Starting RTL generation for module 'dnn_accel_system_new_sdram_controller_0'
+Info: new_sdram_controller_0:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller/generate_rtl.pl --name=dnn_accel_system_new_sdram_controller_0 --dir=C:/Users/RYANLU~1/AppData/Local/Temp/alt8430_5812882093505100154.dir/0042_new_sdram_controller_0_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/RYANLU~1/AppData/Local/Temp/alt8430_5812882093505100154.dir/0042_new_sdram_controller_0_gen//dnn_accel_system_new_sdram_controller_0_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/RYANLU~1/AppData/Local/Temp/alt8430_5812882093505100154.dir/0042_new_sdram_controller_0_gen/  ]
+Info: new_sdram_controller_0: Done RTL generation for module 'dnn_accel_system_new_sdram_controller_0'
+Info: new_sdram_controller_0: "dnn_accel_system_inst" instantiated altera_avalon_new_sdram_controller "new_sdram_controller_0"
+Info: nios2_qsys_0: Starting RTL generation for module 'dnn_accel_system_nios2_qsys_0'
+Info: nios2_qsys_0:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/eperlcmd.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2/cpu_lib -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2/nios_lib -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2 -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2 -- C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2/generate_rtl.epl --name=dnn_accel_system_nios2_qsys_0 --dir=C:/Users/RYANLU~1/AppData/Local/Temp/alt8430_5812882093505100154.dir/0043_nios2_qsys_0_gen/ --quartus_bindir=C:/intelfpga_lite/18.1/quartus/bin64 --verilog --config=C:/Users/RYANLU~1/AppData/Local/Temp/alt8430_5812882093505100154.dir/0043_nios2_qsys_0_gen//dnn_accel_system_nios2_qsys_0_processor_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/RYANLU~1/AppData/Local/Temp/alt8430_5812882093505100154.dir/0043_nios2_qsys_0_gen/  ]
+Info: nios2_qsys_0: # 2020.06.17 13:15:47 (*) Starting Nios II generation
+Info: nios2_qsys_0: # 2020.06.17 13:15:47 (*)   Checking for plaintext license.
+Info: nios2_qsys_0: # 2020.06.17 13:15:47 (*)   Couldn't query license setup in Quartus directory C:/intelfpga_lite/18.1/quartus/bin64
+Info: nios2_qsys_0: # 2020.06.17 13:15:47 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: nios2_qsys_0: # 2020.06.17 13:15:47 (*)   LM_LICENSE_FILE environment variable is empty
+Info: nios2_qsys_0: # 2020.06.17 13:15:47 (*)   Plaintext license not found.
+Info: nios2_qsys_0: # 2020.06.17 13:15:47 (*)   No license required to generate encrypted Nios II/e.
+Info: nios2_qsys_0: # 2020.06.17 13:15:47 (*)   Elaborating CPU configuration settings
+Info: nios2_qsys_0: # 2020.06.17 13:15:47 (*)   Creating all objects for CPU
+Info: nios2_qsys_0: # 2020.06.17 13:15:48 (*)   Creating 'C:/Users/RYANLU~1/AppData/Local/Temp/alt8430_5812882093505100154.dir/0043_nios2_qsys_0_gen//dnn_accel_system_nios2_qsys_0_nios2_waves.do'
+Info: nios2_qsys_0: # 2020.06.17 13:15:48 (*)   Generating RTL from CPU objects
+Info: nios2_qsys_0: # 2020.06.17 13:15:48 (*)   Creating plain-text RTL
+Info: nios2_qsys_0: # 2020.06.17 13:15:49 (*) Done Nios II generation
+Info: nios2_qsys_0: Done RTL generation for module 'dnn_accel_system_nios2_qsys_0'
+Info: nios2_qsys_0: "dnn_accel_system_inst" instantiated altera_nios2_qsys "nios2_qsys_0"
+Info: onchip_memory2_0: Starting RTL generation for module 'dnn_accel_system_onchip_memory2_0'
+Info: onchip_memory2_0:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=dnn_accel_system_onchip_memory2_0 --dir=C:/Users/RYANLU~1/AppData/Local/Temp/alt8430_5812882093505100154.dir/0044_onchip_memory2_0_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/RYANLU~1/AppData/Local/Temp/alt8430_5812882093505100154.dir/0044_onchip_memory2_0_gen//dnn_accel_system_onchip_memory2_0_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/RYANLU~1/AppData/Local/Temp/alt8430_5812882093505100154.dir/0044_onchip_memory2_0_gen/  ]
+Info: onchip_memory2_0: Done RTL generation for module 'dnn_accel_system_onchip_memory2_0'
+Info: onchip_memory2_0: "dnn_accel_system_inst" instantiated altera_avalon_onchip_memory2 "onchip_memory2_0"
+Info: pio_0: Starting RTL generation for module 'dnn_accel_system_pio_0'
+Info: pio_0:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=dnn_accel_system_pio_0 --dir=C:/Users/RYANLU~1/AppData/Local/Temp/alt8430_5812882093505100154.dir/0045_pio_0_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/RYANLU~1/AppData/Local/Temp/alt8430_5812882093505100154.dir/0045_pio_0_gen//dnn_accel_system_pio_0_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/RYANLU~1/AppData/Local/Temp/alt8430_5812882093505100154.dir/0045_pio_0_gen/  ]
+Info: pio_0: Done RTL generation for module 'dnn_accel_system_pio_0'
+Info: pio_0: "dnn_accel_system_inst" instantiated altera_avalon_pio "pio_0"
+Info: pll_0: Generating simgen model
+Info: pll_0: Info: ******************************************************************* Info: Running Quartus Prime Shell     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition     Info: Copyright (C) 2018  Intel Corporation. All rights reserved.     Info: Your use of Intel Corporation's design tools, logic functions      Info: and other software and tools, and its AMPP partner logic      Info: functions, and any output files from any of the foregoing      Info: (including device programming or simulation files), and any      Info: associated documentation or information are expressly subject      Info: to the terms and conditions of the Intel Program License      Info: Subscription Agreement, the Intel Quartus Prime License Agreement,     Info: the Intel FPGA IP License Agreement, or other applicable license     Info: agreement, including, without limitation, that your use is for     Info: the sole purpose of programming logic devices manufactured by     Info: Intel and sold by Intel or its authorized distributors.  Please     Info: refer to the applicable agreement for further details.     Info: Processing started: Wed Jun 17 13:15:51 2020 Info: Command: quartus_sh -t run_simgen_cmd.tcl Info: ******************************************************************* Info: Running Quartus Prime Analysis & Synthesis     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition     Info: Copyright (C) 2018  Intel Corporation. All rights reserved.     Info: Your use of Intel Corporation's design tools, logic functions      Info: and other software and tools, and its AMPP partner logic      Info: functions, and any output files from any of the foregoing      Info: (including device programming or simulation files), and any      Info: associated documentation or information are expressly subject      Info: to the terms and conditions of the Intel Program License      Info: Subscription Agreement, the Intel Quartus Prime License Agreement,     Info: the Intel FPGA IP License Agreement, or other applicable license     Info: agreement, including, without limitation, that your use is for     Info: the sole purpose of programming logic devices manufactured by     Info: Intel and sold by Intel or its authorized distributors.  Please     Info: refer to the applicable agreement for further details.     Info: Processing started: Wed Jun 17 13:15:52 2020 Info: Command: quartus_map dnn_accel_system_pll_0.qpf --simgen --ini=disable_check_quartus_compatibility_qsys_only=on --simgen_parameter=CBX_HDL_LANGUAGE=VERILOG Info (20034): Auto device selection is not supported for Cyclone V device family. The default device, 5CGXFC7C7F23C8, is set. Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance. Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected Info (12021): Found 1 design units, including 1 entities, in source file dnn_accel_system_pll_0.v     Info (12023): Found entity 1: dnn_accel_system_pll_0 File: C:/Users/Ryan Luke/AppData/Local/Temp/alt8430_5812882093505100154.dir/0046_pll_0_gen/dnn_accel_system_pll_0.v Line: 2 Info (12127): Elaborating entity "dnn_accel_system_pll_0" for the top level hierarchy Info (12128): Elaborating entity "altera_pll" for hierarchy "altera_pll:altera_pll_i" File: C:/Users/Ryan Luke/AppData/Local/Temp/alt8430_5812882093505100154.dir/0046_pll_0_gen/dnn_accel_system_pll_0.v Line: 88 Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "wire_to_nowhere_64" into its bus Info (12130): Elaborated megafunction instantiation "altera_pll:altera_pll_i" File: C:/Users/Ryan Luke/AppData/Local/Temp/alt8430_5812882093505100154.dir/0046_pll_0_gen/dnn_accel_system_pll_0.v Line: 88 Info (12133): Instantiated megafunction "altera_pll:altera_pll_i" with the following parameter: File: C:/Users/Ryan Luke/AppData/Local/Temp/alt8430_5812882093505100154.dir/0046_pll_0_gen/dnn_accel_system_pll_0.v Line: 88     Info (12134): Parameter "fractional_vco_multiplier" = "false"     Info (12134): Parameter "reference_clock_frequency" = "50.0 MHz"     Info (12134): Parameter "operation_mode" = "direct"     Info (12134): Parameter "number_of_clocks" = "2"     Info (12134): Parameter "output_clock_frequency0" = "50.000000 MHz"     Info (12134): Parameter "phase_shift0" = "0 ps"     Info (12134): Parameter "duty_cycle0" = "50"     Info (12134): Parameter "output_clock_frequency1" = "50.000000 MHz"     Info (12134): Parameter "phase_shift1" = "-3000 ps"     Info (12134): Parameter "duty_cycle1" = "50"     Info (12134): Parameter "output_clock_frequency2" = "0 MHz"     Info (12134): Parameter "phase_shift2" = "0 ps"     Info (12134): Parameter "duty_cycle2" = "50"     Info (12134): Parameter "output_clock_frequency3" = "0 MHz"     Info (12134): Parameter "phase_shift3" = "0 ps"     Info (12134): Parameter "duty_cycle3" = "50"     Info (12134): Parameter "output_clock_frequency4" = "0 MHz"     Info (12134): Parameter "phase_shift4" = "0 ps"     Info (12134): Parameter "duty_cycle4" = "50"     Info (12134): Parameter "output_clock_frequency5" = "0 MHz"     Info (12134): Parameter "phase_shift5" = "0 ps"     Info (12134): Parameter "duty_cycle5" = "50"     Info (12134): Parameter "output_clock_frequency6" = "0 MHz"     Info (12134): Parameter "phase_shift6" = "0 ps"     Info (12134): Parameter "duty_cycle6" = "50"     Info (12134): Parameter "output_clock_frequency7" = "0 MHz"     Info (12134): Parameter "phase_shift7" = "0 ps"     Info (12134): Parameter "duty_cycle7" = "50"     Info (12134): Parameter "output_clock_frequency8" = "0 MHz"     Info (12134): Parameter "phase_shift8" = "0 ps"     Info (12134): Parameter "duty_cycle8" = "50"     Info (12134): Parameter "output_clock_frequency9" = "0 MHz"     Info (12134): Parameter "phase_shift9" = "0 ps"     Info (12134): Parameter "duty_cycle9" = "50"     Info (12134): Parameter "output_clock_frequency10" = "0 MHz"     Info (12134): Parameter "phase_shift10" = "0 ps"     Info (12134): Parameter "duty_cycle10" = "50"     Info (12134): Parameter "output_clock_frequency11" = "0 MHz"     Info (12134): Parameter "phase_shift11" = "0 ps"     Info (12134): Parameter "duty_cycle11" = "50"     Info (12134): Parameter "output_clock_frequency12" = "0 MHz"     Info (12134): Parameter "phase_shift12" = "0 ps"     Info (12134): Parameter "duty_cycle12" = "50"     Info (12134): Parameter "output_clock_frequency13" = "0 MHz"     Info (12134): Parameter "phase_shift13" = "0 ps"     Info (12134): Parameter "duty_cycle13" = "50"     Info (12134): Parameter "output_clock_frequency14" = "0 MHz"     Info (12134): Parameter "phase_shift14" = "0 ps"     Info (12134): Parameter "duty_cycle14" = "50"     Info (12134): Parameter "output_clock_frequency15" = "0 MHz"     Info (12134): Parameter "phase_shift15" = "0 ps"     Info (12134): Parameter "duty_cycle15" = "50"     Info (12134): Parameter "output_clock_frequency16" = "0 MHz"     Info (12134): Parameter "phase_shift16" = "0 ps"     Info (12134): Parameter "duty_cycle16" = "50"     Info (12134): Parameter "output_clock_frequency17" = "0 MHz"     Info (12134): Parameter "phase_shift17" = "0 ps"     Info (12134): Parameter "duty_cycle17" = "50"     Info (12134): Parameter "pll_type" = "General"     Info (12134): Parameter "pll_subtype" = "General" Info (281010): Generating sgate simulator netlist using Simgen SIMGEN_PROGRESS Start of Model generation -- 0% complete SIMGEN_PROGRESS Phase 1 : Internal Objects created -- 25% complete SIMGEN_PROGRESS Phase 2 : Connections between internal objects made -- 60% complete SIMGEN_PROGRESS Phase 3 : Netlist generated -- 100% complete Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning     Info: Peak virtual memory: 4785 megabytes     Info: Processing ended: Wed Jun 17 13:16:02 2020     Info: Elapsed time: 00:00:10     Info: Total CPU time (on all processors): 00:00:01 Info (23030): Evaluation of Tcl script run_simgen_cmd.tcl was successful Info: Quartus Prime Shell was successful. 0 errors, 0 warnings     Info: Peak virtual memory: 4655 megabytes     Info: Processing ended: Wed Jun 17 13:16:02 2020     Info: Elapsed time: 00:00:11     Info: Total CPU time (on all processors): 00:00:02
+Info: pll_0: Simgen was successful
+Info: pll_0: "dnn_accel_system_inst" instantiated altera_pll "pll_0"
+Info: word_copy_accelerator_0: "dnn_accel_system_inst" instantiated word_copy_accelerator "word_copy_accelerator_0"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_005: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "dnn_accel_system_inst" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: irq_mapper: "dnn_accel_system_inst" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "dnn_accel_system_inst" instantiated altera_reset_controller "rst_controller"
+Info: word_copy_accelerator_0_avalon_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "word_copy_accelerator_0_avalon_master_translator"
+Info: new_sdram_controller_0_s1_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "new_sdram_controller_0_s1_translator"
+Info: word_copy_accelerator_0_avalon_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "word_copy_accelerator_0_avalon_master_agent"
+Info: new_sdram_controller_0_s1_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "new_sdram_controller_0_s1_agent"
+Info: new_sdram_controller_0_s1_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "new_sdram_controller_0_s1_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: router_003: "mm_interconnect_0" instantiated altera_merlin_router "router_003"
+Info: router_004: "mm_interconnect_0" instantiated altera_merlin_router "router_004"
+Info: router_006: "mm_interconnect_0" instantiated altera_merlin_router "router_006"
+Info: new_sdram_controller_0_s1_burst_adapter: "mm_interconnect_0" instantiated altera_merlin_burst_adapter "new_sdram_controller_0_s1_burst_adapter"
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_001"
+Info: cmd_demux_002: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_002"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: cmd_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_001"
+Info: Reusing file C:/Users/Ryan Luke/Desktop/Cpen 311/lab-4-ryaanluke/task4/testbench/dnn_accel_system_tb/simulation/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file C:/Users/Ryan Luke/Desktop/Cpen 311/lab-4-ryaanluke/task4/testbench/dnn_accel_system_tb/simulation/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_001"
+Info: Reusing file C:/Users/Ryan Luke/Desktop/Cpen 311/lab-4-ryaanluke/task4/testbench/dnn_accel_system_tb/simulation/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux_002: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_002"
+Info: Reusing file C:/Users/Ryan Luke/Desktop/Cpen 311/lab-4-ryaanluke/task4/testbench/dnn_accel_system_tb/simulation/submodules/altera_merlin_arbitrator.sv
+Info: new_sdram_controller_0_s1_rsp_width_adapter: "mm_interconnect_0" instantiated altera_merlin_width_adapter "new_sdram_controller_0_s1_rsp_width_adapter"
+Info: Reusing file C:/Users/Ryan Luke/Desktop/Cpen 311/lab-4-ryaanluke/task4/testbench/dnn_accel_system_tb/simulation/submodules/altera_merlin_address_alignment.sv
+Info: Reusing file C:/Users/Ryan Luke/Desktop/Cpen 311/lab-4-ryaanluke/task4/testbench/dnn_accel_system_tb/simulation/submodules/altera_merlin_burst_uncompressor.sv
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: avalon_st_adapter_001: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter_001"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: error_adapter_0: "avalon_st_adapter_001" instantiated error_adapter "error_adapter_0"
+Info: dnn_accel_system_tb: Done "dnn_accel_system_tb" with 42 modules, 74 files
+Info: qsys-generate succeeded.
+Info: sim-script-gen --spd="C:\Users\Ryan Luke\Desktop\lab4\dnn_accel_system_tb.spd" --output-directory="C:/Users/Ryan Luke/Desktop/Cpen 311/lab-4-ryaanluke/task4/testbench/" --use-relative-paths=true
+Info: Doing: ip-make-simscript --spd=C:\Users\Ryan Luke\Desktop\lab4\dnn_accel_system_tb.spd --output-directory=C:/Users/Ryan Luke/Desktop/Cpen 311/lab-4-ryaanluke/task4/testbench/ --use-relative-paths=true
+Info: Generating the following file(s) for MODELSIM simulator in C:/Users/Ryan Luke/Desktop/Cpen 311/lab-4-ryaanluke/task4/testbench/ directory:
+Info: 	mentor/msim_setup.tcl
+Info: Generating the following file(s) for VCS simulator in C:/Users/Ryan Luke/Desktop/Cpen 311/lab-4-ryaanluke/task4/testbench/ directory:
+Info: 	synopsys/vcs/vcs_setup.sh
+Info: Generating the following file(s) for VCSMX simulator in C:/Users/Ryan Luke/Desktop/Cpen 311/lab-4-ryaanluke/task4/testbench/ directory:
+Info: 	synopsys/vcsmx/synopsys_sim.setup
+Info: 	synopsys/vcsmx/vcsmx_setup.sh
+Info: Generating the following file(s) for NCSIM simulator in C:/Users/Ryan Luke/Desktop/Cpen 311/lab-4-ryaanluke/task4/testbench/ directory:
+Info: 	cadence/cds.lib
+Info: 	cadence/hdl.var
+Info: 	cadence/ncsim_setup.sh
+Info: 	41 .cds.lib files in cadence/cds_libs/ directory
+Info: Generating the following file(s) for RIVIERA simulator in C:/Users/Ryan Luke/Desktop/Cpen 311/lab-4-ryaanluke/task4/testbench/ directory:
+Info: 	aldec/rivierapro_setup.tcl
+Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under C:/Users/Ryan Luke/Desktop/Cpen 311/lab-4-ryaanluke/task4/testbench/.
+Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info: Finished: Create testbench Platform Designer system
