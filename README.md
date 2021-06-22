@@ -1,3 +1,6 @@
+# PLEASE READ 
+A summarized report of the code and my implemntation is uploaded as a PDF. for detailed explanation of my implementation please refer to it. Thank you! 
+
 # Deep Neural Networks on FPGA
 
 ## Contents
@@ -17,12 +20,6 @@
   * [Memory map](#memory-map)
   * [Test inputs](#test-inputs)
   * [Common problems](#common-problems)
-* [Deliverables and evaluation](#deliverables-and-evaluation)
-  * [Automatic testing](#automatic-testing)
-  * [Marks](#marks)
-  * [Task 4 [4 marks]](#task-4-4-marks)
-  * [Task 5 [3 marks]](#task-5-3-marks)
-  * [Task 6 [3 marks]](#task-6-3-marks)
 
 
 ## Background
